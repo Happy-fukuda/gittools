@@ -24,6 +24,7 @@ class GitTools():
                     pass
                 else:
                     continue
+
                 dir_path=current_directory+"/"+dir
                 os.chdir(dir_path)
                 master_branch=sup.run(["git remote show origin | grep 'HEAD branch' | awk '{print $NF}'"],

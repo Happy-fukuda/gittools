@@ -8,3 +8,15 @@
 python3 main_pro.py -p [--pull] all
 ```
 allは自分のpullしたいパッケージを空白区切りで書くことも可
+
+## other option
+### if you want to see log
+```
+python3 main_pro.py -l [--log] -p all
+```
+エラーやログを見たいときはオプションで-l(--log)を機能オプション(-p)の前につける
+
+### if you want to see help
+```
+python3 main_pro.py -h [--help]
+```
